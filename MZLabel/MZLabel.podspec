@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "MZLabel", "MZLabel/**/*.{h,m}"
-  s.exclude_files = "MZLabel/Exclude"
+  # s.exclude_files = "MZLabel/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
