@@ -18,13 +18,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2C44AC5E1E10F3E300A240D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2C44AC3C1E10F3E300A240D5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2C44AC431E10F3E300A240D5;
-			remoteInfo = MZLabel;
-		};
 		2C44AC691E10F3E300A240D5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2C44AC3C1E10F3E300A240D5 /* Project object */;
@@ -173,7 +166,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				2C44AC5F1E10F3E300A240D5 /* PBXTargetDependency */,
 			);
 			name = MZLabelTests;
 			productName = MZLabelTests;
@@ -301,11 +293,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2C44AC5F1E10F3E300A240D5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2C44AC431E10F3E300A240D5 /* MZLabel */;
-			targetProxy = 2C44AC5E1E10F3E300A240D5 /* PBXContainerItemProxy */;
-		};
 		2C44AC6A1E10F3E300A240D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2C44AC431E10F3E300A240D5 /* MZLabel */;
