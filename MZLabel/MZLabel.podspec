@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/JordonKaven/MZLabel.git", :tag => "0.0.4" }
+  s.source       = { :git => "https://github.com/JordonKaven/MZLabel.git", :commit => "7aaffee223c6063c589a807cfe55ef9ad7f67cd3" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
