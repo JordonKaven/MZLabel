@@ -13,7 +13,6 @@
 		2C44AC521E10F3E300A240D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C44AC501E10F3E300A240D5 /* Main.storyboard */; };
 		2C44AC541E10F3E300A240D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C44AC531E10F3E300A240D5 /* Assets.xcassets */; };
 		2C44AC571E10F3E300A240D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C44AC551E10F3E300A240D5 /* LaunchScreen.storyboard */; };
-		2C44AC621E10F3E300A240D5 /* MZLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C44AC611E10F3E300A240D5 /* MZLabelTests.m */; };
 		2C44AC6D1E10F3E300A240D5 /* MZLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C44AC6C1E10F3E300A240D5 /* MZLabelUITests.m */; };
 		2C44AC7C1E10F41C00A240D5 /* CopyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C44AC7B1E10F41C00A240D5 /* CopyLabel.m */; };
 /* End PBXBuildFile section */
@@ -47,7 +46,6 @@
 		2C44AC561E10F3E300A240D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C44AC581E10F3E300A240D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C44AC5D1E10F3E300A240D5 /* MZLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C44AC611E10F3E300A240D5 /* MZLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZLabelTests.m; sourceTree = "<group>"; };
 		2C44AC631E10F3E300A240D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C44AC681E10F3E300A240D5 /* MZLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C44AC6C1E10F3E300A240D5 /* MZLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZLabelUITests.m; sourceTree = "<group>"; };
@@ -130,7 +128,6 @@
 		2C44AC601E10F3E300A240D5 /* MZLabelTests */ = {
 			isa = PBXGroup;
 			children = (
-				2C44AC611E10F3E300A240D5 /* MZLabelTests.m */,
 				2C44AC631E10F3E300A240D5 /* Info.plist */,
 			);
 			path = MZLabelTests;
@@ -290,7 +287,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C44AC621E10F3E300A240D5 /* MZLabelTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +512,7 @@
 				2C44AC731E10F3E300A240D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C44AC741E10F3E300A240D5 /* Build configuration list for PBXNativeTarget "MZLabelTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +521,7 @@
 				2C44AC761E10F3E300A240D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C44AC771E10F3E300A240D5 /* Build configuration list for PBXNativeTarget "MZLabelUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +530,7 @@
 				2C44AC791E10F3E300A240D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
